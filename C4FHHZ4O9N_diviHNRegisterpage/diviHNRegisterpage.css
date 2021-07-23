@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.signin_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.signin_left_container {
+    width: 35%;
+    background-image: url("https://res.cloudinary.com/leecloudla/image/upload/v1626935164/MypngFileds/bgDiviHN_j2zers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    order: 0;
+}
+
+.logo_container {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo_image {
+    border: 0px;
+    width: 100px;
+    margin: 10px;
+}
+
+.content_container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content {
+    margin: 0px;
+    width: 150px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.symbol_quote {
+    color: #FE8E22;
+    width: 150px;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.founders_name {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #ffffff;
+    width: 150px;
+}
+
+.left_L_symbol {
+    color: #ffffff;
+    width: 22px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signin_Right_container {
+    width: 65%;
+    min-height: 100vh;
+    order: 2;
+    padding: 20px;
+}
+
+.backtext {
+    color: #a6a6a6;
+    font-size: 20px;
+    font-family: "Roboto";
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register_container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.register_content_div {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register_heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.register_sub_text {
+    font-family: "Roboto";
+    font-size: 12px;
+    width: 250px;
+    color: #a6a6a6;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.labels {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #454242;
+    padding-bottom: 5px;
+}
+
+.input_element {
+    border: 1px solid #8c8b8b;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 0px;
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+.input_element:focus {
+    border: 1px solid #a6a6a6;
+    outline-color: #FE8E22;
+    box-shadow: 5px 5px 10px #a6a6a6;
+}
+
+.checkbox_element {
+    margin-right: 10px;
+}
+
+.account_btn {
+    border: 0px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #FE8E22;
+    height: 35px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.or_container {
+    display: flex;
+}
+
+hr {
+    width: 110px;
+    height: 1px;
+    margin-top: 25px;
+    border: 1px solid #a6a6a6;
+    padding: 0px;
+}
+
+.or_text {
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.google_btn {
+    border: 1px solid #a6a6a6;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 35px;
+    font-family: "Roboto";
+    display: flex;
+}
+
+.google_img {
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.button2_text {
+    font-family: "Roboto";
+    font-size: 12px;
+    align-self: center;
+    margin-left: 35px;
+}
+
+.facebook_btn {
+    border: 1px solid #a6a6a6;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 35px;
+    font-family: "Roboto";
+    display: flex;
+    text-align: center;
+    background-color: #4267B2;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.facebook_img {
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.button3_text {
+    font-family: "Roboto";
+    font-size: 12px;
+    align-self: center;
+    margin-left: 35px;
+    text-align: center;
+}
+
+@media screen and (min-width:769px) {
+    .logo_container {
+        width: 50%;
+    }
+
+    .logo_image {
+        width: 450px;
+    }
+
+    .text_content {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .symbol_quote {
+        width: 200px;
+        font-size: 25px;
+    }
+
+    .founders_name {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .left_L_symbol {
+        width: 30px;
+        margin-left: 190px;
+    }
+
+    .backtext {
+        font-size: 40px;
+    }
+
+    .register_content_div {
+        width: 60%;
+    }
+
+    .register_heading {
+        font-size: 29px;
+    }
+
+    .register_sub_text {
+        font-size: 18px;
+        width: 350px;
+    }
+
+    .or_text,
+    .button2_text,
+    .button3_text,
+    .labels {
+        font-size: 15px;
+    }
+
+}
